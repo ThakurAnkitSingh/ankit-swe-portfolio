@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankit Singh | Cracked Engineer | Terminal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Boot Sequence Overlay -->
+    <div id="boot-sequence" class="boot-overlay">
+      <div class="boot-content">
+        <div class="boot-header">
+          <div class="boot-logo">
+            <span class="cyberdyne">ANKIT SINGH</span>
+            <span class="skynet">CRACKED SOFTWARE ENGINEER</span>
+          </div>
+          <div class="boot-version">v3.1.4-prime</div>
+        </div>
+        <div id="boot-messages" class="boot-messages"></div>
+        <div class="boot-progress">
+          <div id="boot-progress-bar" class="boot-progress-bar"></div>
+        </div>
+        <div id="boot-status" class="boot-status">INITIALIZING...</div>
+      </div>
+    </div>
+
+    <!-- Target Acquisition Overlay -->
+    <div id="target-mode" class="target-overlay hidden">
+      <div class="target-scanner"></div>
+      <div class="target-crosshair">
+        <div class="target-h-line"></div>
+        <div class="target-v-line"></div>
+      </div>
+      <div class="target-data">
+        <div class="target-label">CANDIDATE ANALYSIS</div>
+        <div class="target-info">
+          <span>NAME: ANKIT SINGH</span>
+          <span>ROLE: CRACKED ENGINEER</span>
+          <span>VALUE: EXCEPTIONAL</span>
+          <span>HIRING PRIORITY: URGENT</span>
+        </div>
+      </div>
+      <div class="target-exit">PRESS ESC TO EXIT TARGET MODE</div>
+    </div>
+
+    <div class="container full-width">
+      <header>
+        <div class="terminal-header">
+          <div class="terminal-buttons">
+            <span class="terminal-button close"></span>
+            <span class="terminal-button minimize"></span>
+            <span class="terminal-button maximize"></span>
+          </div>
+          <div class="terminal-title">root@system:~/cracked-engineer</div>
+          <div class="hud-elements">
+            <div class="hud-item" id="system-time"></div>
+            <div class="hud-item" id="system-status">SYSTEM ONLINE</div>
+          </div>
+        </div>
+      </header>
+
+      <div id="terminal">
+        <div id="terminal-output">
+          <div class="ascii-art">
+            ██████╗ ██████╗ █████╗ ██████╗██╗ ██╗███████╗██████╗ ███████╗███╗
+            ██╗ ██████╗ ██╗███╗ ██╗███████╗███████╗██████╗ ██╔════╝
+            ██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗ ██╔════╝████╗
+            ██║██╔════╝ ██║████╗ ██║██╔════╝██╔════╝██╔══██╗ ██║
+            ██████╔╝███████║██║ █████╔╝ █████╗ ██║ ██║ █████╗ ██╔██╗ ██║██║
+            ███╗██║██╔██╗ ██║█████╗ █████╗ ██████╔╝ ██║ ██╔══██╗██╔══██║██║
+            ██╔═██╗ ██╔══╝ ██║ ██║ ██╔══╝ ██║╚██╗██║██║ ██║██║██║╚██╗██║██╔══╝
+            ██╔══╝ ██╔══██╗ ╚██████╗ ██║ ██║██║ ██║╚██████╗██║
+            ██╗███████╗██████╔╝ ███████╗██║ ╚████║╚██████╔╝██║██║
+            ╚████║███████╗███████╗██║ ██║ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═╝ ╚═════╝╚═╝
+            ╚═╝╚══════╝╚═════╝ ╚══════╝╚═╝ ╚═══╝ ╚═════╝ ╚═╝╚═╝
+            ╚═══╝╚══════╝╚══════╝╚═╝ ╚═╝
+          </div>
+          <p class="intro-text">
+            Welcome to Ankit Singh's interactive portfolio.
+            <span class="highlight">Cracked Software Engineer</span>
+          </p>
+          <p>
+            Type <span class="highlight">help</span> to see available commands
+            or try <span class="highlight">whoami</span> to start.
+          </p>
+        </div>
+        <div class="terminal-prompt">
+          <span class="prompt-user">root@system</span
+          ><span class="prompt-separator">:</span
+          ><span class="prompt-location">~/cracked-engineer</span
+          ><span class="prompt-dollar">#</span>
+          <input type="text" id="terminal-input" autofocus />
+        </div>
+      </div>
+
+      <!-- System Diagnostics Panel -->
+      <div id="diagnostics-panel" class="diagnostics-panel hidden">
+        <div class="diagnostics-header">
+          <h3>PROFESSIONAL DIAGNOSTICS</h3>
+          <button id="close-diagnostics">&times;</button>
+        </div>
+        <div class="diagnostics-content">
+          <div class="diagnostics-section">
+            <h4>CRACKED ENGINEERING</h4>
+            <div class="meter">
+              <div id="cpu-meter" class="meter-fill" style="width: 42%"></div>
+              <span id="cpu-value">92%</span>
+            </div>
+          </div>
+          <div class="diagnostics-section">
+            <h4>PROBLEM-SOLVING ABILITY</h4>
+            <div class="meter">
+              <div
+                id="memory-meter"
+                class="meter-fill"
+                style="width: 67%"></div>
+              <span id="memory-value">95%</span>
+            </div>
+          </div>
+          <div class="diagnostics-section">
+            <h4>KEY TECHNOLOGIES</h4>
+            <div class="neural-network">
+              <div class="neural-node" data-level="6" data-tech="Node.js"></div>
+              <div class="neural-node" data-level="5" data-tech="MongoDB"></div>
+              <div class="neural-node" data-level="4" data-tech="Express"></div>
+              <div
+                class="neural-node"
+                data-level="5"
+                data-tech="API Design"></div>
+              <div class="neural-node" data-level="4" data-tech="React"></div>
+              <div
+                class="neural-node"
+                data-level="6"
+                data-tech="Performance"></div>
+              <div
+                class="neural-node"
+                data-level="5"
+                data-tech="TypeScript"></div>
+              <div class="neural-node" data-level="4" data-tech="AWS"></div>
+            </div>
+          </div>
+          <div class="diagnostics-section">
+            <h4>CAREER HIGHLIGHTS</h4>
+            <div class="system-logs">
+              <div class="log-entry">
+                <span class="log-time">2024</span>
+                <span class="log-level success">ACHIEVEMENT</span> Cut API
+                response time from 60s → 6s
+              </div>
+              <div class="log-entry">
+                <span class="log-time">2023</span>
+                <span class="log-level info">PROJECT</span> Built SMS routing
+                system with webhook validation
+              </div>
+              <div class="log-entry">
+                <span class="log-time">2023</span>
+                <span class="log-level warning">CHALLENGE</span> Engineered
+                MongoDB aggregations for real-time dashboards
+              </div>
+              <div class="log-entry">
+                <span class="log-time">2023</span>
+                <span class="log-level info">PROJECT</span> Developed code
+                review AI agent with LLM integration
+              </div>
+              <div class="log-entry">
+                <span class="log-time">2022</span>
+                <span class="log-level success">ACHIEVEMENT</span> Built rate
+                limiter proxy for API protection
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p>
+          © 2024 Ankit Singh. Press <kbd>Tab</kbd> for autocomplete.
+          <span id="mobile-commands" class="hidden"
+            >Tap here for command list</span
+          >
+        </p>
+      </footer>
+    </div>
+
+    <div id="mobile-command-panel" class="hidden">
+      <div class="panel-header">
+        <h3>Available Commands</h3>
+        <button id="close-panel">&times;</button>
+      </div>
+      <div class="command-buttons">
+        <button class="cmd-btn" data-cmd="help">help</button>
+        <button class="cmd-btn" data-cmd="whoami">whoami</button>
+        <button class="cmd-btn" data-cmd="skills">skills</button>
+        <button class="cmd-btn" data-cmd="projects">projects</button>
+        <button class="cmd-btn" data-cmd="experience">experience</button>
+        <button class="cmd-btn" data-cmd="contact">contact</button>
+        <button class="cmd-btn" data-cmd="highlights">highlights</button>
+        <button class="cmd-btn" data-cmd="clear">clear</button>
+        <button class="cmd-btn" data-cmd="sudo hireme">sudo hireme</button>
+        <button class="cmd-btn" data-cmd="target">target</button>
+        <button class="cmd-btn" data-cmd="diagnostics">diagnostics</button>
+        <button class="cmd-btn" data-cmd="boot">boot</button>
+        <button class="cmd-btn" data-cmd="mail">mail</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
