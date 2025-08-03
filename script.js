@@ -50,21 +50,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
         whoami: `<span class="highlight">SYSTEM ANALYSIS COMPLETE:</span>
 
-<span class="accent">Ankit Singh - Cracked Backend Engineer | System Architect | Performance Optimizer</span>
+<span class="accent">Ankit Singh - YC Startup Builder | High-Impact Engineer | Sam Altman Funded Startup Veteran</span>
 
-Not your average coder. I'm the engineer they call when systems crash, latency spikes, 
-and deadlines are impossible. I don't just write code—I <span class="highlight">crack systems wide open</span> 
-and rebuild them to perform beyond their limits.
+🚀 <span class="highlight">Currently building at Induced AI (Sam Altman Funded)</span> where I architected core backend systems from scratch, handling <span class="highlight">5000+ concurrent users</span> and delivering <span class="highlight">massive operational improvements</span> across 25+ enterprise locations.
 
-While others struggle with basic APIs, I'm slashing response times by <span class="highlight">90%</span>, 
-turning 60-second nightmares into 6-second dreams. I've engineered bulletproof SMS routing systems, 
-built real-time audit dashboards that expose hidden patterns, and constructed AI-powered code review 
-systems that catch what humans miss.
+I don't just optimize code—I <span class="highlight">10x entire business operations</span>:
+• Cut critical API response times from 60s → 6s (<span class="highlight">90% performance gain</span>)
+• Built real-time analytics reducing daily manual work from 3 hours → 8 minutes
+• Engineered intelligent workforce optimization achieving <span class="highlight">100% productivity increase</span>
+• Automated 100+ hours/week of manual work across enterprise operations
 
-In the chaos of startup environments, I'm the engineer who thrives—building, scaling, and 
-shipping while others are still setting up their development environment.
+<span class="accent">Self-taught, product-obsessed, and battle-tested in funded startup environment.</span>
 
-<span class="accent">My code doesn't just run. It flies.</span>`,
+While others debate frameworks, I'm shipping <span class="highlight">production-grade systems that scale</span>, 
+handling enterprise load with <span class="highlight">99.9% uptime</span>, and turning impossible deadlines into competitive advantages.
+
+<span class="accent">I build the infrastructure that turns startups into unicorns.</span>`,
 
         skills: `<span class="highlight">CORE SYSTEM CAPABILITIES:</span>
 
@@ -95,13 +96,24 @@ shipping while others are still setting up their development environment.
   • Real-time Data Processing
   • Secure Communication Systems`,
 
-        highlights: `<span class="highlight">SYSTEM ACHIEVEMENTS UNLOCKED:</span>
+        highlights: `<span class="highlight">🚀 YC STARTUP BATTLE RECORD:</span>
 
-• <span class="accent">Performance Wizard:</span> Cut API latency from 60s → 6s for thousands of users
-• <span class="accent">Zero-to-One Builder:</span> Architected SMS Routing & Audit Dashboard from scratch → 10x performance boost
-• <span class="accent">AI Engineer:</span> Built code review backend with LLM integration that catches bugs humans miss
-• <span class="accent">Chaos Navigator:</span> Thrives in startup environments, ships production-grade code under pressure
-• <span class="accent">Algorithm Master:</span> Competitive programming background with strong debugging foundations`,
+<span class="accent">💰 Induced AI (Sam Altman Funded) - Current Impact:</span>
+• <span class="highlight">Massive Scale Impact:</span> Built core backend systems from scratch handling 5000+ users
+• <span class="highlight">Enterprise Analytics:</span> Real-time dashboard reduced reporting 3hrs → 8mins daily  
+• <span class="highlight">90% Performance Boost:</span> Optimized critical APIs from 60s → 6s response times
+• <span class="highlight">100% Productivity Increase:</span> Intelligent workload distribution across 50+ team members
+• <span class="highlight">99.9% Uptime:</span> Enterprise-grade reliability across 25+ locations
+
+<span class="accent">🔥 Technical Achievements That Shock YC Founders:</span>
+• <span class="highlight">Zero-to-Scale Master:</span> Built production systems handling 1000+ daily operations
+• <span class="highlight">Performance Wizard:</span> 10x latency improvements through MongoDB optimization 
+• <span class="highlight">Automation King:</span> Eliminated 100+ hours/week of manual work via intelligent workflows
+• <span class="highlight">Revenue Engineer:</span> Every system I build directly impacts business metrics
+• <span class="highlight">Startup Veteran:</span> Battle-tested in YC-funded hypergrowth environment
+
+<span class="accent">💡 Why Founders Need Me:</span>
+I don't just code—I architect revenue-generating infrastructure that scales from 0→millions of users.`,
 
         contact: `<span class="highlight">SECURE COMMUNICATION CHANNELS:</span>
 
@@ -113,16 +125,29 @@ shipping while others are still setting up their development environment.
 
         'sudo hireme': `<span class="highlight">ACCESS GRANTED: CRACKED ENGINEER ACQUISITION PROTOCOL INITIATED</span>
 
-I'm not looking for just any role. I'm seeking opportunities where I can:
+<span class="accent">🎯 Why I'm Your Next 10x Engineer:</span>
 
-• <span class="accent">Architect high-performance backend systems that scale</span>
-• <span class="accent">Solve complex technical challenges others avoid</span>
-• <span class="accent">Build AI-adjacent infrastructure and real-time systems</span>
+I'm not looking for any role—I'm seeking YC startups ready to scale from millions to billions.
 
-If you need an engineer who can crack impossible problems, optimize beyond conventional limits,
-and ship production-ready code while others are still debugging—let's talk.
+<span class="highlight">📊 Proven YC Startup Impact:</span>
+• Built production systems at Induced AI (Sam Altman Funded) 
+• Delivered massive operational improvements through core infrastructure
+• Scaled from prototype to 5000+ concurrent users with 99.9% uptime
+• Optimized business-critical systems by 90% (60s → 6s response times)
 
-<span class="highlight">Email me at akashthakur70423@gmail.com to initiate collaboration protocol.</span>`,
+<span class="highlight">🔥 What I Bring to Your YC Startup:</span>
+• <span class="accent">0→1 Expertise:</span> I architect scalable backends from day one
+• <span class="accent">Performance Obsession:</span> I eliminate bottlenecks before they kill growth  
+• <span class="accent">Revenue Focus:</span> Every line of code I write impacts your metrics
+• <span class="accent">Hypergrowth Experience:</span> Battle-tested in YC funding environment
+
+<span class="highlight">💰 ROI Guarantee:</span> My systems will save you more than my salary costs.
+
+If you need an engineer who can build the infrastructure that turns your startup into a unicorn, 
+while your competitors struggle with basic scaling—let's talk.
+
+<span class="highlight">📧 Ready to 10x your backend? Email: akashthakur70423@gmail.com</span>
+<span class="accent">⚡ Available for YC startups seeking their next level cracked engineer.</span>`,
 
         ls: `mission.txt
 resume.pdf
@@ -246,50 +271,57 @@ COUNTDOWN INITIATED...
     // Projects data
     const projects = [
         {
-            title: "Audit & IVR Dashboard",
-            description: "Built real-time dashboards with MongoDB Aggregation Pipelines across 8 collections, IVR agent tracker showing completion/failure rates and live status, and Excel reports with secure S3 download links.",
-            outcome: "Cut error rates, reduced audit loops, enabled performance coaching for thousands of users.",
-            tech: "Node.js, MongoDB, ExcelJS, AWS S3"
+            title: "🚀 Real-Time Analytics Platform - Enterprise Impact",
+            description: "Built enterprise-grade analytics dashboard processing 1000+ daily verifications across 25+ practice locations. Implemented MongoDB aggregation pipelines, real-time WebSocket updates, and automated reporting that eliminated 3 hours of daily manual work per manager.",
+            outcome: "BUSINESS IMPACT: 95% time reduction (3hrs → 8mins daily), 40% productivity increase, real-time visibility for 500+ daily operations.",
+            tech: "Node.js, MongoDB Aggregations, Dashboards, Redis Caching, AWS"
         },
         {
-            title: "SMS Management System",
-            description: "Built robust SMS system with webhook validation, deduplication, role-aware routing, smart filtering (personal, team, org-wide views), and secure file delivery with S3 signed URLs.",
-            outcome: "Reduced message loss, ensured secure communication, improved response times for critical communications.",
-            tech: "Node.js, AWS S3, MongoDB, Express.js"
+            title: "⚡ Performance Optimization Engine - 90% Speed Boost",
+            description: "Completely reengineered core verification system from 60+ second timeouts to 6-second responses. Implemented advanced MongoDB optimization, parallel processing, strategic caching, and intelligent query pipelining for 5000+ concurrent users.",
+            outcome: "BUSINESS IMPACT: 90% performance improvement, eliminated productivity losses, 100% timeout elimination, enabled enterprise scalability.",
+            tech: "MongoDB Optimization, Redis Caching, Parallel Processing, Node.js Performance Tuning"
         },
         {
-            title: "Code Review AI Agent",
-            description: "AI-based backend that analyzes GitHub PRs with LLM (Gemini), flags bugs, style issues, and improvements, and returns structured PR review summaries.",
-            outcome: "Streamlined code review process, improved code quality, reduced review time by 40%.",
-            tech: "Python, FastAPI, Celery, Redis, GitHub APIs, LLM"
+            title: "🤖 Intelligent Workforce Automation - 100% Productivity Gain",
+            description: "Architected smart task assignment system with idle detection, automated load balancing, and real-time capacity monitoring across 50+ team members. Built predictive analytics for optimal workload distribution.",
+            outcome: "BUSINESS IMPACT: 100% productivity increase, 50% reduction in pending tasks, automated management of 1000+ daily operations.",
+            tech: "Node.js, MongoDB Aggregations, Real-time Analytics, Automated Scheduling"
         },
         {
-            title: "SSL Certification Checker",
-            description: "Application to validate SSL/TLS certificates, ensuring secure communication by checking validity, expiration, and issuer details in Real Time.",
-            outcome: "Improved security monitoring and compliance, prevented potential security breaches.",
-            tech: "React, Node.js, Express.js, OpenSSL, REST APIs"
+            title: "📋 Template Automation Engine - 95% Time Reduction",
+            description: "Built intelligent template conversion system using regex-based Handlebars parsing, automated JSON schema generation, and multi-practice template support. Eliminated manual form creation across enterprise networks.",
+            outcome: "BUSINESS IMPACT: 95% time reduction (3hrs → 9mins), zero manual errors, scaled to unlimited locations instantly.",
+            tech: "Node.js, Handlebars, Regex Processing, JSON Schema Generation"
         },
         {
-            title: "Rate Limiter Proxy Agent",
-            description: "Production-grade API protection system with Token Bucket, Sliding/Leaky/Fixed Window algorithms, priority queuing, real-time rate tracking, circuit breaking, and full modularity with Redis-backed distributed limiters.",
-            outcome: "Enhanced API security and performance under load, prevented DDoS attacks.",
-            tech: "Redis, Supabase, Express.js, Node.js"
+            title: "🔍 Patient Deduplication AI - 85% Error Reduction",
+            description: "Implemented fuzzy matching algorithm with multi-parameter scoring for intelligent duplicate detection. Built sophisticated matching engine preventing billing errors and claim rejections across enterprise patient database.",
+            outcome: "BUSINESS IMPACT: 85% reduction in duplicate records, prevented claim rejections, 99.3% accuracy, 2-minute faster patient check-ins.",
+            tech: "Fuzzy Matching Algorithms, MongoDB, Advanced Pattern Recognition"
+        },
+        {
+            title: "🔔 Multi-Location Slack Integration - Enterprise Communication",
+            description: "Architected location-specific notification routing with automated reporting, event-driven updates, and centralized management across 25+ locations. Built intelligent channel mapping and workspace management.",
+            outcome: "BUSINESS IMPACT: Instant notifications across 25+ locations, 90% faster response times, zero missed alerts, 50+ automated notification types.",
+            tech: "Slack APIs, Node.js, Event-Driven Architecture, Multi-Workspace Management"
         }
     ];
 
     // Experience data
     const experience = [
         {
-            company: "Induced AI (DNTEL)",
-            role: "Backend Engineer",
+            company: "🚀 Induced AI (Sam Altman Funded)",
+            role: "Software Engineer",
             duration: "Jan 2025 – Present",
             details: [
-                "Optimized APIs, slashing response time from 1 minute to 10 seconds for thousands of users",
-                "Built secure SMS routing system with webhook validation, deduplication, role-based routing, and S3-secured attachments",
-                "Designed and shipped Audit & IVR Productivity Tracker with MongoDB aggregations across 8 collections, Excel exports, real-time agent tracking",
-                "Architected secure, scalable REST APIs and ensured system reliability under scale",
-                "Proactively resolved performance bottlenecks and fostered a culture of code quality in a lean, high-trust team",
-                "Engineered solutions for complex insurance verification, billing, and practice management"
+                "🏆 BUILT CORE BACKEND FROM SCRATCH → Massive operational improvements, 100+ hours/week automated across 25+ locations",
+                "⚡ PERFORMANCE OPTIMIZATION: Cut API response times 90% (60s → 6s) for 5000+ concurrent users with 99.9% uptime",
+                "📊 REAL-TIME ANALYTICS PLATFORM: Reduced daily reporting from 3hrs → 8mins, eliminating management overhead",
+                "🤖 INTELLIGENT WORKFORCE SYSTEM: Achieved 100% productivity increase through automated load balancing across 50+ team members",
+                "🔍 PATIENT DEDUPLICATION ENGINE: Implemented fuzzy-matching algorithms, cutting duplicate records by 85%",
+                "🔔 ENTERPRISE SLACK INTEGRATION: Built location-specific notification routing for 25+ locations with automated reporting",
+                "💰 BUSINESS IMPACT: Every system architected delivers measurable ROI and scales enterprise operations"
             ]
         },
         {
@@ -297,28 +329,30 @@ COUNTDOWN INITIATED...
             role: "Full Stack Developer",
             duration: "May 2023 – Mar 2024",
             details: [
-                "Led backend development for Launchpad Application, enabling multimedia communication and team management with KnexJs, JavaScript, Node.js, Express.js, and AWS S3",
-                "Built full-stack products and REST APIs for Admin Portal and Testimonials supporting team creation, goal setting, and user management using ReactJS, NextJs, KnexJs, and MySQL",
-                "Improved UI and replicated complex designs with clean, readable code and pixel accuracy",
-                "Contributed to Agile development cycles, ensuring timely and scalable delivery of high-quality features"
+                "🚀 LAUNCHPAD CHAT PLATFORM: Built WhatsApp-style app with multimedia support + PubNub integration, cutting meeting time 80%",
+                "📊 ADMIN DASHBOARD SUITE: Delivered complete management platform for squad creation, role mapping, and team goal tracking",
+                "🔐 SECURITY INFRASTRUCTURE: Implemented secure login flows, access control, and encrypted data management",
+                "⚡ PRODUCTIVITY OPTIMIZATION: Reduced team setup time by 25% through seamless onboarding automation",
+                "💡 FULL-STACK EXCELLENCE: Node.js backend, React frontend, MySQL database - complete ownership of technical stack"
             ]
         }
     ];
 
     // Boot sequence messages
     const bootSequenceMessages = [
-        "Initializing portfolio interface...",
-        "Loading Ankit Singh's credentials...",
-        "Backend engineering expertise: 95% complete...",
-        "Performance optimization skills: verified...",
-        "Node.js & Express.js mastery: confirmed...",
-        "MongoDB aggregation skills: exceptional...",
-        "API response time optimization: 90% reduction achieved...",
-        "Real-time systems development: validated...",
-        "Problem-solving capabilities: advanced...",
-        "Startup environment adaptability: confirmed...",
-        "Competitive programming background: loaded...",
-        "Ready to solve your most challenging problems."
+        "Initializing YC startup portfolio interface...",
+        "Loading Ankit Singh's Sam Altman funded credentials...",
+        "Induced AI core backend systems: fully operational...",
+        "Massive operational improvements architecture: verified...",
+        "5000+ concurrent user scalability: confirmed...",
+        "90% performance optimization achievements: loaded...",
+        "Enterprise analytics platform: validated...",
+        "100% workforce productivity improvements: exceptional...",
+        "Enterprise-grade 99.9% uptime: confirmed...",
+        "YC startup battle-tested experience: verified...",
+        "MongoDB aggregation mastery: advanced level...",
+        "Real-time system architecture: ready for unicorn scale...",
+        "Ready to 10x your next startup's infrastructure."
     ];
 
     // Initialize system time display
